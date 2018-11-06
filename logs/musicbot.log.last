@@ -1,0 +1,74 @@
+[113.933801651] 2018-11-05 23:45:44,894 - INFO - launcher: Starting sanity checks
+[114.934206009] 2018-11-05 23:45:44,895 - INFO - launcher: Checking for Python 3.5+
+[114.934206009] 2018-11-05 23:45:44,895 - INFO - launcher: Checking console encoding
+[115.932464600] 2018-11-05 23:45:44,896 - INFO - launcher: Setting console encoding to UTF-8
+[115.932464600] 2018-11-05 23:45:44,896 - INFO - launcher: Ensuring we're in the right environment
+[117.930412292] 2018-11-05 23:45:44,898 - INFO - launcher: Adding local bins/ folder to path
+[4798.008680344] 2018-11-05 23:45:49,578 - INFO - launcher: Required checks passed.
+[4800.007820129] 2018-11-05 23:45:49,580 - INFO - launcher: Optional checks passed.
+[4800.007820129] 2018-11-05 23:45:49,580 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[12.9060819149017334] 2018-11-05 23:45:57,686 - WARNING - musicbot.config | In config.py::MainThread(12048), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[12.9070818424224854] 2018-11-05 23:45:57,687 - INFO - musicbot.config | In config.py::MainThread(12048), line 124 in run_checks: Using i18n: config/i18n/en.json
+[12.9110784530639648] 2018-11-05 23:45:57,691 - WARNING - musicbot.config | In config.py::MainThread(12048), line 296 in find_autoplaylist: No autoplaylist file found.
+[12.9170744419097900] 2018-11-05 23:45:57,697 - DEBUG - musicbot.json | In json.py::MainThread(12048), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[12.9800386428833008] 2018-11-05 23:45:57,760 - DEBUG - musicbot.bot | In bot.py::MainThread(12048), line 223 in _setup_logging: Set logging level to INFO
+[12.9810378551483154] 2018-11-05 23:45:57,761 - INFO - musicbot.bot | In bot.py::MainThread(12048), line 83 in __init__: Starting MusicBot 1.9.8_1
+[12.9850347042083740] 2018-11-05 23:45:57,765 - WARNING - musicbot.bot | In bot.py::MainThread(12048), line 86 in __init__: Autoplaylist is empty, disabling.
+[17.2309019565582275] 2018-11-05 23:46:02,011 - DEBUG - musicbot.bot | In bot.py::MainThread(12048), line 913 in on_ready: Connection established, ready to go.
+[17.2319011688232422] 2018-11-05 23:46:02,012 - DEBUG - musicbot.bot | In bot.py::MainThread(12048), line 334 in _cache_app_info: Caching app info
+[17.4947516918182373] 2018-11-05 23:46:02,274 - DEBUG - musicbot.bot | In bot.py::MainThread(12048), line 735 in _scheck_ensure_env: Ensuring data folders exist
+[17.4967508316040039] 2018-11-05 23:46:02,276 - DEBUG - musicbot.bot | In bot.py::MainThread(12048), line 745 in _scheck_ensure_env: Deleted old audio cache
+[17.4967508316040039] 2018-11-05 23:46:02,276 - DEBUG - musicbot.bot | In bot.py::MainThread(12048), line 751 in _scheck_server_permissions: Checking server permissions
+[17.4967508316040039] 2018-11-05 23:46:02,276 - DEBUG - musicbot.bot | In bot.py::MainThread(12048), line 755 in _scheck_autoplaylist: Auditing autoplaylist
+[17.4977512359619141] 2018-11-05 23:46:02,277 - DEBUG - musicbot.bot | In bot.py::MainThread(12048), line 759 in _scheck_configs: Validating config
+[17.4977512359619141] 2018-11-05 23:46:02,277 - DEBUG - musicbot.config | In config.py::MainThread(12048), line 213 in async_validate: Validating options...
+[17.4977512359619141] 2018-11-05 23:46:02,277 - DEBUG - musicbot.bot | In bot.py::MainThread(12048), line 762 in _scheck_configs: Validating permissions config
+[17.4977512359619141] 2018-11-05 23:46:02,277 - DEBUG - musicbot.permissions | In permissions.py::MainThread(12048), line 65 in async_validate: Validating permissions...
+[17.4977512359619141] 2018-11-05 23:46:02,277 - INFO - musicbot.bot | In bot.py::MainThread(12048), line 930 in on_ready: Connected: 468764927549505536/KampoengBOT - Music#3342
+[17.4997501373291016] 2018-11-05 23:46:02,279 - INFO - musicbot.bot | In bot.py::MainThread(12048), line 938 in on_ready: Owner:     262095065088786432/Tess#5171
+
+[17.4997501373291016] 2018-11-05 23:46:02,279 - INFO - musicbot.bot | In bot.py::MainThread(12048), line 941 in on_ready: Guild List:
+[17.5007493495941162] 2018-11-05 23:46:02,280 - INFO - musicbot.bot | In bot.py::MainThread(12048), line 944 in on_ready:  - Kampoeng Community
+[17.5017485618591309] 2018-11-05 23:46:02,281 - INFO - musicbot.bot | In bot.py::MainThread(12048), line 990 in on_ready: Not bound to any text channels
+[17.5017485618591309] 2018-11-05 23:46:02,281 - INFO - musicbot.bot | In bot.py::MainThread(12048), line 1016 in on_ready: Not autojoining any voice channels
+[17.5037457942962646] 2018-11-05 23:46:02,283 - INFO - musicbot.bot | In bot.py::MainThread(12048), line 267 in _join_startup_channels: Found owner in "Staff Voice"
+[17.5047457218170166] 2018-11-05 23:46:02,284 - INFO - musicbot.bot | In bot.py::MainThread(12048), line 276 in _join_startup_channels: Attempting to join Kampoeng Community/Staff Voice
+[18.2751953601837158] 2018-11-05 23:46:03,055 - DEBUG - musicbot.bot | In bot.py::MainThread(12048), line 695 in deserialize_queue: Deserializing queue for 270068280956420106
+[18.8358728885650635] 2018-11-05 23:46:03,615 - DEBUG - musicbot.bot | In bot.py::MainThread(12048), line 417 in get_player: Created player via deserialization for guild 270068280956420106 with 1 entries
+[18.8368721008300781] 2018-11-05 23:46:03,616 - INFO - musicbot.bot | In bot.py::MainThread(12048), line 292 in _join_startup_channels: Joined Kampoeng Community/Staff Voice
+[18.8388705253601074] 2018-11-05 23:46:03,618 - DEBUG - musicbot.entry | In entry.py::MainThread(12048), line 56 in get_ready_future: Created future for None
+[18.8398714065551758] 2018-11-05 23:46:03,619 - INFO - musicbot.entry | In entry.py::MainThread(12048), line 285 in _really_download: Download started: https://www.youtube.com/watch?v=uP0tK5qha3U
+[33.0626783370971680] 2018-11-05 23:46:17,842 - INFO - musicbot.bot | In bot.py::MainThread(12048), line 2597 in on_message: 262095065088786432/Tess#5171: *disconnect
+[33.3405196666717529] 2018-11-05 23:46:18,120 - ERROR - musicbot.bot | In bot.py::MainThread(12048), line 901 in on_error: Exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\prabu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\client.py", line 225, in _run_event
+    await coro(*args, **kwargs)
+  File "F:\MusicBot\musicbot\bot.py", line 2795, in on_voice_state_update
+    player = await self.get_player(channel)
+  File "F:\MusicBot\musicbot\bot.py", line 425, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use *summon to summon it to your voice channel.
+[35.4193332195281982] 2018-11-05 23:46:20,199 - INFO - musicbot.entry | In entry.py::MainThread(12048), line 295 in _really_download: Download complete: https://www.youtube.com/watch?v=uP0tK5qha3U
+[35.4283299446105957] 2018-11-05 23:46:20,208 - FFMPEG - musicbot.player | In player.py::MainThread(12048), line 276 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-uP0tK5qha3U-Resep_Ayam_Goreng_Spesial_Empuk.webm
+[35.4353229999542236] 2018-11-05 23:46:20,215 - DEBUG - musicbot.player | In player.py::MainThread(12048), line 287 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x06A7B1F0> using <discord.voice_client.VoiceClient object at 0x05A7DF30>
+[264.0982239246368408] 2018-11-05 23:50:08,878 - ERROR - musicbot.bot | In bot.py::MainThread(12048), line 901 in on_error: Exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\prabu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\client.py", line 225, in _run_event
+    await coro(*args, **kwargs)
+  File "F:\MusicBot\musicbot\bot.py", line 2795, in on_voice_state_update
+    player = await self.get_player(channel)
+  File "F:\MusicBot\musicbot\bot.py", line 425, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use *summon to summon it to your voice channel.
+[7270.9913957118988037] 2018-11-06 01:46:55,771 - ERROR - musicbot.bot | In bot.py::MainThread(12048), line 901 in on_error: Exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\prabu\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\client.py", line 225, in _run_event
+    await coro(*args, **kwargs)
+  File "F:\MusicBot\musicbot\bot.py", line 2795, in on_voice_state_update
+    player = await self.get_player(channel)
+  File "F:\MusicBot\musicbot\bot.py", line 425, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use *summon to summon it to your voice channel.
